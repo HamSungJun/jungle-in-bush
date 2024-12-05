@@ -5,9 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic'
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '생각이 많은 사람',
+  title: '바른생각',
   tagline: '',
-  favicon: 'img/jungle-in-bush.png',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://jungle-in-bush.github.io',
@@ -60,14 +60,11 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'HamSungJun',
+      title: '바른생각',
       logo: {
         alt: 'Jungle In Bush Logo',
-        src: 'img/jungle-in-bush.png',
+        src: 'img/logo.png',
       },
-      items: [
-        { to: '/blog', label: 'Blog', position: 'left' },
-      ],
     },
     prism: {
       theme: prismThemes.github,
