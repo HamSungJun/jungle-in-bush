@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic'
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '정치꾼 H',
+  title: '세상꾼 H',
   tagline: '',
   favicon: 'img/favicon.png',
 
@@ -60,7 +60,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: '정치꾼 H',
+      title: '세상꾼 H',
       logo: {
         alt: 'Jungle In Bush Logo',
         src: 'img/logo.png',
