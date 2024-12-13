@@ -73,6 +73,7 @@ const config: Config = {
     future: {
       experimental_faster: true,
     },
+    metadata: [{ name: 'naver-site-verification', content: '155f8be0c3dfb818a239dad2d34a10d9851f277b' }],
   } satisfies Preset.ThemeConfig,
 }
 
