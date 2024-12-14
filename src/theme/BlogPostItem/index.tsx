@@ -11,8 +11,6 @@ export default function BlogPostItemWrapper(props: Props): JSX.Element {
   const { metadata, isBlogPostPage } = useBlogPost()
   const { comments = true } = metadata.frontMatter
 
-  console.log({ metadata, isBlogPostPage })
-
   return (
     <>
       <BlogPostItem {...props} />
