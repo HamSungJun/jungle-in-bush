@@ -34,3 +34,7 @@
   border-radius: 9999px;
   overflow: hidden;
 }
+
+.rounded-8 {
+  border-radius: 8px;
+}
